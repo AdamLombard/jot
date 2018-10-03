@@ -1,0 +1,2 @@
+## Thoughts
+A place to brain dump and free your mind. Don't get caught up in organizing here -- this folder is mostly about clarifying your thoughts by externalizing them, and is not intended to be organized reference material. It can be messy!

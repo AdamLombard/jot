@@ -1,0 +1,2 @@
+- go over today's Jot notes
+- push my Jot to repo

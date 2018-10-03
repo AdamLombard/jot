@@ -1,0 +1,3 @@
+- make tea
+- prep Jot
+- read email

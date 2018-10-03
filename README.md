@@ -1,51 +1,29 @@
-# lftm
-A low-friction task management system.
+# Jot
+A low-friction task management system, written in [Markdown](https://commonmark.org/help/), inspired by (and forked from) [Coraline Ada Ehmke](https://github.com/CoralineAda)'s [lftm](https://github.com/CoralineAda/lftm).
 
-## Background
-I have tried every GTD approach and software application under the sun. Without fail they fall into two camps: not enough organization, or far too much organization. I finally developed a system that works well for me, is low-friction, and keeps me organized (even though by nature I am a very disorganized person.)
+## What is Jot?
+Imagine having a second head that's good at tracking all the boring details about your workday, leaving your first head free to be the creative genius it was born to be. That second head is Jot!
 
-The system has several benefits:
-  * Answers the question of 'what do I do next?', which is the ultimate productivity killer.
-  * Keeps my working memory uncluttered.
-  * Keeps me from um'ing during my daily standups. I always know what I worked on yesterday.
-  * Is a handy record of accomplishments that I can reference when it's time for my review, I want to ask for a raise, or I'm updating my resume.
-  * Provides a reminder that I do, in fact, get things done and that I don't, in fact, suck at my job.
+Jot is an organized set of files and folders in which to quickly offload the to-do lists, project notes, and scattered thoughts cluttering up your brain. It's also a method of using these files and folders effectively.
 
-The system consists of a number of folders, each containing a specific kind of text file. I use BBEdit and open the parent folder as a project so that I have all of my subfolders in a tree view with easy access to their enclosed documents. You should be able to do the same thing in the editor of your choice.
+## How is it organized?
+Jot is comprised of five folders:
 
-![Sample Project View](https://github.com/CoralineAda/lftm/blob/master/example.png)
+- [diaries](/diaries/README.md) (the heart of Jot)
+- [meetings](/meetings/README.md)
+- [projects](/projects/README.md)
+- [thoughts](/thoughts/README.md)
+- [workflows](/workflows/README.md)
 
-It's important to keep these as plain text files. Don't do markdown or anything like that; this will increase friction. Plain text is faster, and faster means that you'll actually use the system.
+Each folder contains a README giving more details about its use.
 
-## Folder Structure
+## How do I use it?
+To start your day, open the parent folder as a project in your favorite text editor. (Might I recommend [VSCode](https://code.visualstudio.com/)? It's lovely this time of year.) This gives you all subfolders in a tree view with easy access to their enclosed documents.
 
-### 1-on-1s
-Keep a separate document for each person with whom you have 1-on-1s. Make date headings, and keep it updated with things that you want to talk about on that date.
+Search for `!!`, review the action items that come up, and move any pressing ones into the `Soon` heading of the current month in the appropriate diary.
 
-Before your 1-on-1, open the document to review your last session and remind yourself of the things that you want to talk about.
+In the appropriate diary, make a new heading for today's date. Move three to five items from the `Soon` heading down into today.
 
-During the meeting or immediately afterward, write down anything else that you talked about and capture action items. After the meeting is over, transfer the action items to your work journal under the `Soon` heading.
+As you work on your action items, take notes related to the action as a nested list beneath it. As you accomplish action items, remove the `!!`. (This is like checking things off, and prevents the items from appearing in future searches.)
 
-### Meetings
-For recurring meetings, keep a single document named for the meeting title. Jot down notes either during the meeting or immediately after. Capture action items as you go, and transfer them to your work journal when the meeting is over.
-
-### Journals
-Make a folder for each month and one document for each week. Never work in advance.
-
-_Daily Headings_
-In the weekly document, you should have a heading for the current day and any previous day; avoid adding headings for the future (that's what calendars are for.)
-
-_Soon Heading_
-You should also have a heading for `Soon`, which are action items on your backlog. It's fine to arrange them in priority order but don't stress too much over this.
-
-_Reminders_
-I also have a heading for `Reminders`, which consist of actionable feedback that I have received or goals for myself relating to my interactions with others.
-
-### Projects
-Keep all your project notes in one place. Create a subfolder for each project, and one or more files in that subfolder for notes, goals, meetings, and so on. It's okay to have tasks in the project, just make sure to surface the ones that you will need to get to soon under the 'Soon' header in your work journal. This will actually help that 'Soon' group from growing too large to manage.
-
-### Notes
-Create a separate document for each project that you have planned or in the works. Write down your thoughts and ideas, paste in URLs of relevant project docs, and write preliminary to-dos. Don't worry about over-organizing: this is a place for you to brain dump and free your mind from having to remember a thousand details.
-
-## How to Use The Journal
-When you start your day, pull a couple of items from your `Soon` heading up into the current day. As you work, take a few seconds to update the daily heading with what you're working on. Write down every task you completed or started, even if it feels minor. This will reinforce that you are a productive person and give you confidence in your ability to Get Shit Done.
+As you work, note every task you complete or start, even if it feels minor. You'll end up with a clean record of what you work on and accomplish each day. :)
